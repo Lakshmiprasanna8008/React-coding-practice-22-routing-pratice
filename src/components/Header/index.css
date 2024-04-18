@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.whole-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+li {
+  color: #6d396b;
+  font-weight: 600;
+}
